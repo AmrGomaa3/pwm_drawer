@@ -1,0 +1,16 @@
+# Build outputs and object files
+Debug/
+*.elf
+*.hex
+*.eep
+*.lss
+*.map
+*.o
+*.d
+
+# Workspace and tool settings
+*.workspace
+*.user
+
+# Simulation backups
+Simulation/Project Backups/

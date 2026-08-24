@@ -1,0 +1,17 @@
+#ifndef GRAPH_LCD_CONFIG_H_
+#define GRAPH_LCD_CONFIG_H_
+
+
+#define GLCD_DPORT DIO_PORTA
+#define GLCD_CPORT DIO_PORTC
+
+
+#define GLCD_CCS1 DIO_PIN0
+#define GLCD_CCS2 DIO_PIN1
+#define GLCD_RS   DIO_PIN2
+#define GLCD_RW   DIO_PIN3
+#define GLCD_E    DIO_PIN4
+#define GLCD_RST  DIO_PIN5
+
+
+#endif /* GRAPH_LCD_CONFIG_H_ */
