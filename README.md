@@ -1,18 +1,11 @@
-<<<<<<< HEAD
-# pwm_drawer
-A standalone real-time PWM signal analyser using bare-metal C and the ATmega32. The system uses Timer1 ICU to measure the PWM signal's period, frequency, and duty cycle, then displays the measurement and the waveform on a graphical LCD. Follows a layered MCAL/HAL architecture and includes custom drivers.
-=======
 # PWM Drawer
 
 A standalone real-time PWM signal analyser built from scratch using bare-metal C and the ATmega32. The system uses Timer1 Input Capture to measure the PWM signal's period, frequency, and duty cycle, then displays the measurements alongside a live waveform on a graphical LCD. Frequency is displayed with 0.1 resolution and duty cycle with 1% resolution. A freeze/hold mode allows the user to pause the display for easier inspection of measurements.
 
 The project follows a layered MCAL/HAL architecture and includes custom drivers for DIO, EXTI, Timer0, Timer1, GLCD, LEDs, and buttons. The complete system was simulated and validated in Proteus.
 
-
 ---
-
 Video demo: https://youtu.be/JcgQYUyIVQY
-
 ---
 
 ## Hardware Setup
