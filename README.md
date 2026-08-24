@@ -189,4 +189,3 @@ See the [LICENSE](./LICENSE) file for license information.
 
 **Amr Gomaa**
 GitHub: [AmrGomaa3](https://github.com/AmrGomaa3)
->>>>>>> 4019ce9 (Initial commit: PWM drawer source code and simulation setup)
